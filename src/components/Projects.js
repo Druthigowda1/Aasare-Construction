@@ -1,13 +1,14 @@
 import React from 'react';
 import { Box, Typography, Container, Grid, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 import project1 from '../assets/project1.png';
 import residential from '../assets/residential.png';
 import commercial from '../assets/commercial.png';
 
-const projects = [
-    { title: 'Modern Villa, Mysore', img: residential, type: 'Residential' },
-    { title: 'Cloud-9 Offices, Bangalore', img: commercial, type: 'Commercial' },
-    { title: 'The ASR Residency', img: project1, type: 'Residential' }
+export const projects = [
+    { id: '1', title: 'Modern Villa, Mysore', img: residential, type: 'Residential', description: 'A beautifully crafted modern villa with spacious interiors and a luxurious touch, built to offer the perfect residential experience.' },
+    { id: '2', title: 'Cloud-9 Offices, Bangalore', img: commercial, type: 'Commercial', description: 'A state-of-the-art commercial building designed for productivity and aesthetics, located in the heart of the IT hub.' },
+    { id: '3', title: 'The ASR Residency', img: project1, type: 'Residential', description: 'An elegant residential project focusing on community living and eco-friendly design.' }
 ];
 
 const Projects = () => {
@@ -24,8 +25,8 @@ const Projects = () => {
         </Box>
 
         <Grid container spacing={4}>
-          {projects.map((project, index) => (
-            <Grid item xs={12} md={4} key={index}>
+          {projects.map((project) => (
+            <Grid item xs={12} md={4} key={project.id}>
               <Box 
                 sx={{ 
                     position: 'relative', 
@@ -65,7 +66,12 @@ const Projects = () => {
                   <Typography variant="body1" sx={{ color: '#fff', mb: 3 }}>
                     {project.type}
                   </Typography>
-                  <Button variant="outlined" sx={{ borderColor: '#3EB2F1', color: '#3EB2F1', borderRadius: 0, fontWeight: 700 }}>
+                  <Button 
+                    component={Link} 
+                    to={`/project/${project.id}`} 
+                    variant="outlined" 
+                    sx={{ borderColor: '#3EB2F1', color: '#3EB2F1', borderRadius: 0, fontWeight: 700, '&:hover': { backgroundColor: '#3EB2F1', color: '#000' } }}
+                  >
                     VIEW PROJECT
                   </Button>
                 </Box>

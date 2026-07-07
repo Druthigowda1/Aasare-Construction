@@ -21,7 +21,7 @@ const Footer = () => {
               <IconButton sx={{ backgroundColor: '#2c2c2c', borderRadius: 0, color: '#fff', '&:hover': { backgroundColor: '#3EB2F1', color: '#000' } }}>
                 <LinkedIn />
               </IconButton>
-              <IconButton sx={{ backgroundColor: '#2c2c2c', borderRadius: 0, color: '#fff', '&:hover': { backgroundColor: '#3EB2F1', color: '#000' } }}>
+              <IconButton component="a" href="https://www.instagram.com/aasareconstruction/" target="_blank" rel="noopener noreferrer" sx={{ backgroundColor: '#2c2c2c', borderRadius: 0, color: '#fff', '&:hover': { backgroundColor: '#3EB2F1', color: '#000' } }}>
                 <Instagram />
               </IconButton>
             </Box>
