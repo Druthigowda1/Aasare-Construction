@@ -24,27 +24,27 @@ const services = [
 
 const Services = () => {
   return (
-    <Box sx={{ py: 12, backgroundColor: '#000' }}>
+    <Box sx={{ py: 12, backgroundColor: '#f8f8f8ff' }}>
       <Container maxWidth="lg">
-        <Typography 
-          variant="h6" 
-          sx={{ 
-            color: '#3EB2F1', 
-            fontWeight: 800, 
-            textAlign: 'center', 
-            letterSpacing: '5px', 
-            mb: 1 
+        <Typography
+          variant="h6"
+          sx={{
+            color: '#3EB2F1',
+            fontWeight: 800,
+            textAlign: 'center',
+            letterSpacing: '5px',
+            mb: 1
           }}
         >
           OUR SERVICES
         </Typography>
-        <Typography 
-          variant="h3" 
-          sx={{ 
-            color: '#fff', 
-            fontWeight: 900, 
-            textAlign: 'center', 
-            mb: 8 
+        <Typography
+          variant="h3"
+          sx={{
+            color: '#0d0707ff',
+            fontWeight: 900,
+            textAlign: 'center',
+            mb: 8
           }}
         >
           What We Offer
@@ -53,22 +53,22 @@ const Services = () => {
         <Grid container spacing={4}>
           {services.map((service, index) => (
             <Grid item xs={12} md={4} key={index}>
-              <Card 
-                sx={{ 
-                    borderRadius: 0, 
-                    backgroundColor: '#1c1c1c', 
-                    color: '#fff', 
-                    height: '100%', 
-                    borderBottom: '4px solid transparent', 
-                    transition: '0.3s',
-                    '&:hover': { borderBottom: '4px solid #3EB2F1', transform: 'translateY(-10px)' }
+              <Card
+                sx={{
+                  borderRadius: 0,
+                  backgroundColor: '#1c1c1c',
+                  color: '#fff',
+                  height: '100%',
+                  borderBottom: '4px solid transparent',
+                  transition: '0.3s',
+                  '&:hover': { borderBottom: '4px solid #3EB2F1', transform: 'translateY(-10px)' }
                 }}
               >
-                <CardMedia 
-                  component="img" 
-                  height="250" 
-                  image={service.img} 
-                  alt={service.title} 
+                <CardMedia
+                  component="img"
+                  height="250"
+                  image={service.img}
+                  alt={service.title}
                 />
                 <CardContent sx={{ p: 4 }}>
                   <Typography variant="h5" sx={{ fontWeight: 800, mb: 2, color: '#3EB2F1' }}>
