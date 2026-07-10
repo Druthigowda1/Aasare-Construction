@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://aasareconstructions.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://aasareconstructions.com/about</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://aasareconstructions.com/services</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://aasareconstructions.com/projects</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://aasareconstructions.com/contact</loc>
+    <priority>0.8</priority>
+  </url>
+
+<url>
+    <loc>https://aasareconstructions.com/exterior-design</loc>
+    <priority>0.8</priority>
+  </url>
+
+<url>
+    <loc>https://aasareconstructions.com/interior-design</loc>
+    <priority>0.8</priority>
+  </url>
+
+<url>
+    <loc>https://aasareconstructions.com/commercial</loc>
+    <priority>0.8</priority>
+  </url>
+
+<url>
+    <loc>https://aasareconstructions.com/residential</loc>
+    <priority>0.8</priority>
+  </url>
+
+
+</urlset>
