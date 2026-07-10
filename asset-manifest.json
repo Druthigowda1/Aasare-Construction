@@ -1,21 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.64945697.css",
-    "main.js": "/static/js/main.a6c1230e.js",
+    "main.js": "/static/js/main.192c6a76.js",
     "static/js/453.f4b37bb9.chunk.js": "/static/js/453.f4b37bb9.chunk.js",
     "static/media/kling_20260610_VIDEO_Cinematic__3868_0 (2).mp4": "/static/media/kling_20260610_VIDEO_Cinematic__3868_0 (2).d6ed1e3e5c48d603746f.mp4",
+    "static/media/exterior_5_1783712412643.png": "/static/media/exterior_5_1783712412643.912110bb87612a29a73f.png",
+    "static/media/exterior_4_1783712398666.png": "/static/media/exterior_4_1783712398666.619b26e79753cc93b0fd.png",
+    "static/media/kitchen_5_1783712336229.png": "/static/media/kitchen_5_1783712336229.2f92dcfa4a69be0dc423.png",
+    "static/media/exterior_1_1783712363666.png": "/static/media/exterior_1_1783712363666.c41d5b0f81034d1f15c8.png",
+    "static/media/exterior_3_1783712388989.png": "/static/media/exterior_3_1783712388989.a3f94eb426811d65db63.png",
+    "static/media/exterior_2_1783712375771.png": "/static/media/exterior_2_1783712375771.b9b0392d2c2b9312c9b8.png",
+    "static/media/kitchen_2_1783712302314.png": "/static/media/kitchen_2_1783712302314.5c581be004027fa9bc8e.png",
+    "static/media/kitchen_1_1783712291708.png": "/static/media/kitchen_1_1783712291708.9d50b8d2f2f2a829a604.png",
+    "static/media/kitchen_4_1783712323635.png": "/static/media/kitchen_4_1783712323635.3f92986fa96d4d3dbc36.png",
+    "static/media/kitchen_3_1783712314054.png": "/static/media/kitchen_3_1783712314054.908f4a95f3a993ad0d58.png",
     "static/media/project1.png": "/static/media/project1.50f6cd9e90b4969b5403.png",
     "static/media/residential.png": "/static/media/residential.2adffa09be9f5affbf10.png",
     "static/media/commercial.png": "/static/media/commercial.e31e04ae5cb9707ba189.png",
     "static/media/aasare.png": "/static/media/aasare.71b92f17f29f5703e9ae.png",
+    "static/media/banner.png": "/static/media/banner.4ee6165d05f1327e6d43.png",
     "static/media/interiors.png": "/static/media/interiors.63e64b057bc92ad006b7.png",
     "index.html": "/index.html",
     "main.64945697.css.map": "/static/css/main.64945697.css.map",
-    "main.a6c1230e.js.map": "/static/js/main.a6c1230e.js.map",
+    "main.192c6a76.js.map": "/static/js/main.192c6a76.js.map",
     "453.f4b37bb9.chunk.js.map": "/static/js/453.f4b37bb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64945697.css",
-    "static/js/main.a6c1230e.js"
+    "static/js/main.192c6a76.js"
   ]
 }
