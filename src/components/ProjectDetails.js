@@ -2,14 +2,21 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Box, Typography, Container, Button, Grid } from '@mui/material';
 import { projects } from './Projects';
+import useSEO from '../hooks/useSEO';
 
 const ProjectDetails = () => {
   const { id } = useParams();
   const project = projects.find(p => p.id === id);
 
+  useSEO({
+    title: project ? project.title : 'Project Not Found',
+    description: project ? project.description : 'Details about our construction project.',
+    keywords: `aasare projects, construction ${project ? project.title : ''}`
+  });
+
   if (!project) {
     return (
-      <Box sx={{ py: 10, textAlign: 'center', minHeight: '60vh' }}>
+      <Box sx={{ py: 1, textAlign: 'center', minHeight: '60vh' }}>
         <Typography variant="h4">Project Not Found</Typography>
         <Button component={Link} to="/projects" sx={{ mt: 3 }} variant="contained">Back to Projects</Button>
       </Box>
@@ -36,18 +43,18 @@ const ProjectDetails = () => {
             <Typography variant="body1" sx={{ color: '#555', fontSize: '1.1rem', lineHeight: 1.8, mb: 4 }}>
               {project.description}
             </Typography>
-            <Button 
-              variant="contained" 
+            <Button
+              variant="contained"
               component={Link}
               to="/contact"
-              sx={{ 
-                backgroundColor: '#3EB2F1', 
-                color: '#000', 
-                borderRadius: 0, 
-                px: 5, 
-                py: 1.5, 
-                fontWeight: 700, 
-                '&:hover': { backgroundColor: '#1c1c1c', color: '#fff' } 
+              sx={{
+                backgroundColor: '#3EB2F1',
+                color: '#000',
+                borderRadius: 0,
+                px: 5,
+                py: 1.5,
+                fontWeight: 700,
+                '&:hover': { backgroundColor: '#1c1c1c', color: '#fff' }
               }}
             >
               ENQUIRE NOW

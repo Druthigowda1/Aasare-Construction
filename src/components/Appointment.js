@@ -1,10 +1,17 @@
 import React, { useState } from 'react';
 import { Box, Typography, Container, Grid, TextField, Button, Alert, CircularProgress } from '@mui/material';
+import useSEO from '../hooks/useSEO';
 
 // TODO: Replace this URL with your deployed Google Apps Script Web App URL
 const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxRJ0wkSyMXVa4VKy4aEKM4HjesoaMQeUykGboOPC5qItK9nZNJg26gbTLs2KH5xbGFXg/exec';
 
 const Appointment = () => {
+  useSEO({
+    title: 'Book an Appointment',
+    description: 'Schedule a free consultation with Aasare Constructions to discuss your dream home or commercial building project.',
+    keywords: 'book appointment construction, free consultation builders, schedule a meeting aasare'
+  });
+
   const [formData, setFormData] = useState({
     Name: '',
     Phone: '',
